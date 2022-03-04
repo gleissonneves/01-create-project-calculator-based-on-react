@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('./font/Roboto/Roboto-Regular.ttf'),
+       url('./font/Roboto/Roboto-Medium.ttf');
+}
+
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+  background-color: #282c34;
+}
+
+.text-gradiente-primary {
+  background-image: 
+  linear-gradient(to right, #1859d3, #1859d3, #0091fc, #00bbd9, #a8eb12);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
